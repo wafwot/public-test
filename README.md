@@ -1,2 +1,2 @@
 # public-test
-This really sin't anything
+This really isn't anything
