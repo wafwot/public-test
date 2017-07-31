@@ -8,7 +8,6 @@
 190011      GEICO        119
 190021      GEICO        12402
 190029      GEICO        6462
-190031      GEICO        4
 190032      GEICO        51
 190041      GEICO        11
 190051      GEICO        21
