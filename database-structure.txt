@@ -1,0 +1,311 @@
+
+CHG_MAIN_1601
+ Name                            Null?    Type
+ ------------------------------- -------- ----
+ REFERENCE                       NOT NULL VARCHAR2(11)
+ COMMAND                                  CHAR(1)
+ ACCTBILL                                 VARCHAR2(9)
+ ACCTDONE                                 VARCHAR2(9)
+ DMVACCT                                  VARCHAR2(11)
+ SERVICETYPE                              VARCHAR2(4)
+ DEPT                                     VARCHAR2(20)
+ ECHOBACK                                 VARCHAR2(50)
+ TIME                                     DATE
+ STATE                                    VARCHAR2(4)
+ SEARCHCRITERIA                           VARCHAR2(100)
+ SEARCHTIME                               NUMBER(7,3)
+ RESULTCODE                               VARCHAR2(4)
+ CHARGES                                  NUMBER(3)
+ PRICE                                    NUMBER(11,2)
+ STATEFEE                                 NUMBER(5,2)
+ BALANCE                                  NUMBER(11,2)
+ RECSRC                                   VARCHAR2(15)
+ LOGTIME                                  DATE
+ DPPA                                     VARCHAR2(5)
+
+
+ORACUST
+ Name                            Null?    Type
+ ------------------------------- -------- ----
+ ACCOUNT                         NOT NULL VARCHAR2(9)
+ PASSWORD                                 VARCHAR2(15)
+ STATUS                                   VARCHAR2(25)
+ BILLINGTYPE                              CHAR(1)
+ INIT                                     VARCHAR2(3)
+ CONTACT                                  VARCHAR2(20)
+ COMPANY                                  VARCHAR2(30)
+ STREET                                   VARCHAR2(30)
+ CITY                                     VARCHAR2(20)
+ STATE                                    VARCHAR2(2)
+ ZIP                                      VARCHAR2(10)
+ PHONE                                    VARCHAR2(11)
+ FAX                                      VARCHAR2(11)
+ NOTES                                    VARCHAR2(40)
+ DATEOPENED                               DATE
+ DATECHANGED                              DATE
+ LASTACCESS                               DATE
+ TOTALCALLS                               NUMBER(10)
+ MONTHLYCALLS                             NUMBER(8)
+ DAILYCALLS                               NUMBER(8)
+ DEPOSIT                                  NUMBER(10,2)
+ MONTHLYCHARGE                            NUMBER(10,2)
+ DISCOUNTGROUP                            NUMBER(8,2)
+ ACCOUNTPREFIX                            VARCHAR2(2)
+ STATELIST                                VARCHAR2(55)
+ PARENTACCT                               VARCHAR2(9)
+ TTPASSWORD                               VARCHAR2(6)
+ OVERRIDE                                 CHAR(1)
+ ACCTTYPE                                 CHAR(1)
+ RECORDTYPE                               CHAR(1)
+ WWWPASSWORD                              VARCHAR2(16)
+ INVTYPE                                  CHAR(1)
+ INVDATE                                  NUMBER(2)
+ ARCDATE                                  NUMBER(3)
+ TAXEXEMPT                                CHAR(1)
+ SECDEP                                   NUMBER(10,2)
+ ARCTYPE                                  CHAR(1)
+ SECLEVEL                                 CHAR(1)
+
+
+ORAEXTRA
+ Name                            Null?    Type
+ ------------------------------- -------- ----
+ ACCOUNT                         NOT NULL VARCHAR2(11)
+ FIELD                           NOT NULL VARCHAR2(20)
+ VALUE                           NOT NULL VARCHAR2(80)
+
+
+SEC_USER
+ Name                            Null?    Type
+ ------------------------------- -------- ----
+ ACCOUNT                         NOT NULL VARCHAR2(9)
+ USERID                          NOT NULL VARCHAR2(14)
+ ACCTBILL                                 VARCHAR2(9)
+ DEPT                                     VARCHAR2(20)
+ NAME                                     VARCHAR2(41)
+ PASSWORD                                 VARCHAR2(15)
+ DATEPW                                   DATE
+ DATELOGINGOOD                            DATE
+ DATELOGINBAD                             DATE
+ DATEOPENED                               DATE
+ DATEINFO                                 DATE
+ STATUS                                   CHAR(1)
+ ATTEMPTS                                 NUMBER(3)
+ INFOQUES                                 VARCHAR2(40)
+ INFOANS                                  VARCHAR2(40)
+ NOTES                                    VARCHAR2(80)
+
+update oracust set seclevel='1' where account='129117';
+update oracust set seclevel='1' where account='RSA0249';
+update oracust set seclevel='1' where account='RSA0259';
+update oracust set seclevel='1' where account='RSA0256';
+update oracust set seclevel='1' where account='RSA0519';
+update oracust set seclevel='1' where account='RSA0551';
+update oracust set seclevel='1' where account='RSA0572';
+
+
+SQL> desc chg_opr_1601;  // not used
+SQL> desc arc_main_1601;   // list of records for archive? If so, it wont be the same
+
+
+
+
+
+select table_name, num_rows from dba_tables where owner = 'MVR' and table_name not like 'CHG_OPR%' and table_name not like 'ARC_MAIN%' and table_name not like 'CHG_MAIN%' ;
+
+
+
+
+
+
+
+
+
+SQL>  select * from oracust where account='130203';
+
+ACCOUNT   PASSWORD        STATUS                    B INI CONTACT
+--------- --------------- ------------------------- - --- --------------------
+COMPANY                        STREET
+------------------------------ ------------------------------
+CITY                 ST ZIP        PHONE       FAX
+-------------------- -- ---------- ----------- -----------
+NOTES                                    DATEOPENE DATECHANG LASTACCES
+---------------------------------------- --------- --------- ---------
+TOTALCALLS MONTHLYCALLS DAILYCALLS    DEPOSIT MONTHLYCHARGE DISCOUNTGROUP AC
+---------- ------------ ---------- ---------- ------------- ------------- --
+STATELIST                                               PARENTACC TTPASS O A R
+------------------------------------------------------- --------- ------ - - -
+WWWPASSWORD      I    INVDATE    ARCDATE T     SECDEP A S
+---------------- - ---------- ---------- - ---------- - -
+130203    T1992G          A AAAA    A               R KP  CANDACE DONNELL, SIU
+
+ACCOUNT   PASSWORD        STATUS                    B INI CONTACT
+--------- --------------- ------------------------- - --- --------------------
+COMPANY                        STREET
+------------------------------ ------------------------------
+CITY                 ST ZIP        PHONE       FAX
+-------------------- -- ---------- ----------- -----------
+NOTES                                    DATEOPENE DATECHANG LASTACCES
+---------------------------------------- --------- --------- ---------
+TOTALCALLS MONTHLYCALLS DAILYCALLS    DEPOSIT MONTHLYCHARGE DISCOUNTGROUP AC
+---------- ------------ ---------- ---------- ------------- ------------- --
+STATELIST                                               PARENTACC TTPASS O A R
+------------------------------------------------------- --------- ------ - - -
+WWWPASSWORD      I    INVDATE    ARCDATE T     SECDEP A S
+---------------- - ---------- ---------- - ---------- - -
+GEICO                          1345 PERIMETER PKWY
+
+ACCOUNT   PASSWORD        STATUS                    B INI CONTACT
+--------- --------------- ------------------------- - --- --------------------
+COMPANY                        STREET
+------------------------------ ------------------------------
+CITY                 ST ZIP        PHONE       FAX
+-------------------- -- ---------- ----------- -----------
+NOTES                                    DATEOPENE DATECHANG LASTACCES
+---------------------------------------- --------- --------- ---------
+TOTALCALLS MONTHLYCALLS DAILYCALLS    DEPOSIT MONTHLYCHARGE DISCOUNTGROUP AC
+---------- ------------ ---------- ---------- ------------- ------------- --
+STATELIST                                               PARENTACC TTPASS O A R
+------------------------------------------------------- --------- ------ - - -
+WWWPASSWORD      I    INVDATE    ARCDATE T     SECDEP A S
+---------------- - ---------- ---------- - ---------- - -
+VIRGINIA BEACH       VA 23454      7572226373
+
+ACCOUNT   PASSWORD        STATUS                    B INI CONTACT
+--------- --------------- ------------------------- - --- --------------------
+COMPANY                        STREET
+------------------------------ ------------------------------
+CITY                 ST ZIP        PHONE       FAX
+-------------------- -- ---------- ----------- -----------
+NOTES                                    DATEOPENE DATECHANG LASTACCES
+---------------------------------------- --------- --------- ---------
+TOTALCALLS MONTHLYCALLS DAILYCALLS    DEPOSIT MONTHLYCHARGE DISCOUNTGROUP AC
+---------- ------------ ---------- ---------- ------------- ------------- --
+STATELIST                                               PARENTACC TTPASS O A R
+------------------------------------------------------- --------- ------ - - -
+WWWPASSWORD      I    INVDATE    ARCDATE T     SECDEP A S
+---------------- - ---------- ---------- - ---------- - -
+ACCOUNT OPENED BY ED-DPPA - YES - DM     11-MAY-93 17-FEB-11 10-FEB-16
+
+ACCOUNT   PASSWORD        STATUS                    B INI CONTACT
+--------- --------------- ------------------------- - --- --------------------
+COMPANY                        STREET
+------------------------------ ------------------------------
+CITY                 ST ZIP        PHONE       FAX
+-------------------- -- ---------- ----------- -----------
+NOTES                                    DATEOPENE DATECHANG LASTACCES
+---------------------------------------- --------- --------- ---------
+TOTALCALLS MONTHLYCALLS DAILYCALLS    DEPOSIT MONTHLYCHARGE DISCOUNTGROUP AC
+---------- ------------ ---------- ---------- ------------- ------------- --
+STATELIST                                               PARENTACC TTPASS O A R
+------------------------------------------------------- --------- ------ - - -
+WWWPASSWORD      I    INVDATE    ARCDATE T     SECDEP A S
+---------------- - ---------- ---------- - ---------- - -
+     40446          116          2    2659.43             0             0
+
+ACCOUNT   PASSWORD        STATUS                    B INI CONTACT
+--------- --------------- ------------------------- - --- --------------------
+COMPANY                        STREET
+------------------------------ ------------------------------
+CITY                 ST ZIP        PHONE       FAX
+-------------------- -- ---------- ----------- -----------
+NOTES                                    DATEOPENE DATECHANG LASTACCES
+---------------------------------------- --------- --------- ---------
+TOTALCALLS MONTHLYCALLS DAILYCALLS    DEPOSIT MONTHLYCHARGE DISCOUNTGROUP AC
+---------- ------------ ---------- ---------- ------------- ------------- --
+STATELIST                                               PARENTACC TTPASS O A R
+------------------------------------------------------- --------- ------ - - -
+WWWPASSWORD      I    INVDATE    ARCDATE T     SECDEP A S
+---------------- - ---------- ---------- - ---------- - -
+044400440400444444044444404400444440000444444440040                      Y 3 4
+
+ACCOUNT   PASSWORD        STATUS                    B INI CONTACT
+--------- --------------- ------------------------- - --- --------------------
+COMPANY                        STREET
+------------------------------ ------------------------------
+CITY                 ST ZIP        PHONE       FAX
+-------------------- -- ---------- ----------- -----------
+NOTES                                    DATEOPENE DATECHANG LASTACCES
+---------------------------------------- --------- --------- ---------
+TOTALCALLS MONTHLYCALLS DAILYCALLS    DEPOSIT MONTHLYCHARGE DISCOUNTGROUP AC
+---------- ------------ ---------- ---------- ------------- ------------- --
+STATELIST                                               PARENTACC TTPASS O A R
+------------------------------------------------------- --------- ------ - - -
+WWWPASSWORD      I    INVDATE    ARCDATE T     SECDEP A S
+---------------- - ---------- ---------- - ---------- - -
+SHARK            1          1          0 N              1
+
+ACCOUNT   PASSWORD        STATUS                    B INI CONTACT
+--------- --------------- ------------------------- - --- --------------------
+COMPANY                        STREET
+------------------------------ ------------------------------
+CITY                 ST ZIP        PHONE       FAX
+-------------------- -- ---------- ----------- -----------
+NOTES                                    DATEOPENE DATECHANG LASTACCES
+---------------------------------------- --------- --------- ---------
+TOTALCALLS MONTHLYCALLS DAILYCALLS    DEPOSIT MONTHLYCHARGE DISCOUNTGROUP AC
+---------- ------------ ---------- ---------- ------------- ------------- --
+STATELIST                                               PARENTACC TTPASS O A R
+------------------------------------------------------- --------- ------ - - -
+WWWPASSWORD      I    INVDATE    ARCDATE T     SECDEP A S
+---------------- - ---------- ---------- - ---------- - -
+
+
+SQL>
+
+
+
+
+// When importing from oracle, keep the original date account opened somewhere.
+// New accounts is kept in the RecordInsertDate field
+
+Billing Account Entity
+
+	RecordUUID - Unique Record Identifier
+	RecordInsertDate - The date this record was inserted, auto filled
+	RecordInsertBy - Who inserted this record (changed/opened/etc)
+	RecordInsertNote - free text
+
+	Identifier
+	Status
+	BillingContact
+	BillingEmail
+	BillingPhone
+	BillingFax
+	BillingAddress1
+	BillingAddress2
+	BillingCity
+	BillingState
+	BillingZip
+	PrimaryContact
+	PrimaryEmail
+	PrimaryPhone
+	PrimaryFax
+	PrimaryAddress1
+	PrimaryAddress2
+	PrimaryCity
+	PrimaryState
+	PrimaryZip
+	TaxExempt
+	BillingType
+	SecurityDeposit
+	CreditLimitAmount
+	CreditLimitDays
+
+
+
+User Entity
+	RecordUUID
+	RecordInsertDate
+	RecordInsertBy
+	RecordInsertNote
+
+	Status
+	Identifier
+	Password
+	Name
+	Email
+	
+
+
+

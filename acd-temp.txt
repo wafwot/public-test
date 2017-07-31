@@ -1,0 +1,170 @@
+|   769 | AL    | 366   | CDL NOT IN POSSESSION                              | $$$  |
+|   817 | AL    | 369   | WRITE SEND READ TEXT MSG                           | $$$  |
+|   901 | AL    | 368   | USE MOBILE PHONE                                   | $$$  |
+|  1156 | AL    | 109   | OPERATING UNSAFE CMV                               | $$$  |
+| 44434 | AL    | 354   | FAILED SHOW NON-COMM DL                            | $$$  |
+| 44437 | AL    | 353   | SPEEDING 26 OR MORE OVER                           | $$$  |
+| 44485 | AL    | 350   | MOVE OVER EMERG VEHICLE                            | $$$  |
+| 44497 | AL    | 347   | FAIL TO YIELD EMERGENCY                            | $$$  |
+| 44527 | AL    | 346   | OBSTRUCT/IMPEDE TRAFFIC                            | $$$  |
+| 44629 | AL    | 345   | OPERATE W/O BRAKES REQD                            | $$$  |
+| 44632 | AL    | 342   | IMP OR ERR LANE CHG                                | $$$  |
+| 44671 | AL    | 324   | OUT-OF-STATE ADM PERSE                             | $$$  |
+| 44683 | AL    | 341   | OPERATE W/O EQUIP                                  | $$$  |
+| 59020 | NY    | NULL  | VIO GRAD LIC REST                                  | $$$  |
+| 59024 | NY    | NULL  | FLD PROD LIC/REG                                   | $$$  |
+| 59027 | NY    | NULL  | TRUCK RTE VIOL-NYC                                 | $$$  |
+| 59030 | NY    | NULL  | IMPROP CLASS/END DL                                | $$$  |
+| 59033 | NY    | NULL  | FLD YLD PED GRN LIGT                               | $$$  |
+| 59036 | NY    | NULL  | OP OUT INTRLCK RESTR                               | $$$  |
+| 59039 | NY    | NULL  | BUS ON PARK/PARKWAY                                | $$$  |
+| 59042 | NY    | NULL  | UNLAW DISPOS SUMMONS                               | $$$  |
+| 59045 | NY    | NULL  | DR CMV W/O OBTAN CDL                               | $$$  |
+| 59048 | NY    | NULL  | OVRWT/OVRSIZE ESC                                  | $$$  |
+| 59051 | NY    | NULL  | VEHIC ASLT - 1ST DEG                               | $$$  |
+| 59054 | NY    | NULL  | DRVG W/.08% ALCH PI                                | $$$  |
+| 59057 | NY    | NULL  | VIO INTLCK - SOLICIT                               | $$$  |
+| 59060 | NY    | NULL  | DWI-SPECIAL VEHICLE                                | $$$  |
+| 59063 | NY    | NULL  | DR.08%-SPEC VEHICLE                                | $$$  |
+| 59066 | NY    | NULL  | OPER OUT OF REST-CL                                | $$$  |
+| 59069 | NY    | NULL  | DRVG W/IMPAIRED OS                                 | $$$  |
+| 59072 | NY    | NULL  | UNSAFE PASS BICYCLE                                | $$$  |
+| 59075 | NY    | NULL  | IMPROP UTURN SCHOOL                                | $$$  |
+| 59078 | AL    | 108   | NO MEDICAL CARD                                    | $$$  |
+| 59081 | AL    | 270   | IMPROPER LEFT TURN                                 | $$$  |
+| 59084 | AL    | 170   | SPEED 1-10 OVER LIMIT                              | $$$  |
+| 59087 | AL    | 252   | FTY TO OTHER VEHICLE                               | $$$  |
+| 59090 | AL    | 267   | FAIL SIGNAL LANE/TURN                              | $$$  |
+| 59093 | AL    | 283   | ILLEGAL POSSESS OF DRUGS                           | $$$  |
+| 59096 | AL    | 244   | PASSING ON WRONG SIDE                              | $$$  |
+| 59099 | AL    | 301   | UNSAFE OPERATION                                   | $$$  |
+| 59102 | AL    | 273   | IMPROPER U TURN                                    | $$$  |
+| 59105 | AL    | 178   | DUI .08 OR MORE                                    | $$$  |
+| 59108 | AL    | 171   | SPEED 21-30 OVER LIMIT                             | $$$  |
+| 59111 | AL    | 169   | SPEED 41 OR MORE OVER                              | $$$  |
+| 59114 | AL    | 253   | FTY OVERTAKING VEHICLE                             | $$$  |
+| 59117 | AL    | 287   | RECKLESS CARELESS NEG DR                           | $$$  |
+| 59120 | AL    | 125   | SPEEDING OVER 85 MPH                               | $$$  |
+| 59123 | AL    | 164   | SPEED 16-20 OVER LIMIT                             | $$$  |
+| 59126 | AL    | 232   | IN RESTRICTED LANE                                 | $$$  |
+| 59129 | AL    | 285   | FTO TRAFFIC SIGNAL/LGT                             | $$$  |
+| 59132 | AL    | 165   | SPEED 21-25 OVER LIMIT                             | $$$  |
+| 59135 | AL    | 210   | EQUIP USED IMP/OBST                                | $$$  |
+| 59138 | AL    | 216   | FTO LANE MARKS/SIGNAL                              | $$$  |
+| 59141 | AL    | 195   | DRIVE WHILE WITHDRAWN                              | $$$  |
+| 59144 | AL    | 299   | WRONG SIGNAL                                       | $$$  |
+| 59147 | AL    | 096   | OTHER-MOVING AND TRAFFIC                           | $$$  |
+| 59150 | AL    | 222   | FOLLOWING IMPROPERLY                               | $$$  |
+| 59153 | AL    | 154   | OPER W/O LIGHTS REQD                               | $$$  |
+| 59156 | AL    | 240   | IMP LANE LOC STR CTR LN                            | $$$  |
+| 59159 | AL    | 238   | IMP LANE/LOC DTCH/SHD                              | $$$  |
+| 59162 | AL    | 221   | FTO WARN LIGHT/FLASH                               | $$$  |
+| 59165 | AL    | 217   | FTO POLICE/PEACE OFFR                              | $$$  |
+| 59168 | AL    | 122   | ADM ACTION/REFUSAL                                 | $$$  |
+| 59171 | AL    | 097   | OTHER-NOT MOVE NOR TRAFF                           | $$$  |
+| 59174 | AL    | 286   | IMP LANE OR LOCATION                               | $$$  |
+| 59177 | NJ    | 0348  | IMPROPER VISIBILITY/LIGHTS                         | $$$  |
+| 59180 | NJ    | 035C  | VEHICLE WITH IMPROPER LIGHT COLOR                  | $$$  |
+| 59183 | NJ    | 0450  | OPERATE UNDER INFLUENCE LIQ/DRUGS                  | $$$  |
+| 59186 | NJ    | 0482  | FAILURE TO KEEP RIGHT                              | $$$  |
+| 59189 | NJ    | 138A  | GDL SUPERVISION REQUIREMENT                        | $$$  |
+| 59192 | NJ    | 138F  | GDL OTHER VIOLATION NOT SPECIFIED                  | $$$  |
+| 59195 | NJ    | 138G  | GDL DECAL RESTRICTION                              | $$$  |
+| 59198 | NJ    | 371B  | ALLOW UNLICENSED DRIVER TO OPERATE                 | $$$  |
+| 59201 | NJ    | 4125  | U TURN PROHIBITED                                  | $$$  |
+| 59204 | NJ    | 4129  | FAIL TO OBEY TRAFFIC CONTROL DEV                   | $$$  |
+| 59207 | NJ    | 4662  | AVOIDING A TRAFFIC CONTROL SIGNAL                  | $$$  |
+| 59210 | NJ    | 4821  | IMPROPER USE OF DIVIDED HIGHWAY                    | $$$  |
+| 59213 | NJ    | 489A  | FOLLOWING UNLAWFULLY OR IMPROPERL                  | $$$  |
+| 59216 | NJ    | 4922  | VH MOVE OVER FOR EMERGNCY VEHICLES                 | $$$  |
+| 59219 | NJ    | 5014  | DRIVING AFTER UNDERAGE DRINKING                    | $$$  |
+| 59222 | NJ    | C046  | OBSTRUCT PASSAGE VEHICLE                           | $$$  |
+| 59225 | NJ    | C343  | EQUIPMENT VIOLATION:MVS REGULATION                 | $$$  |
+| 59228 | NJ    | C344  | UNSAFE VEHICLE                                     | $$$  |
+| 59231 | NJ    | C481  | FAIL TO OBSERVE TRAFF CNTRL DEVICE                 | $$$  |
+| 59234 | NJ    | C48A  | IMPROPER OPER HIGHWAY W/MARK LANES                 | $$$  |
+| 59237 | NJ    | C62F  | FAILURE TO WEAR SEAT BELT                          | $$$  |
+| 59240 | NJ    | C972  | UNSAFE OPERATION OF A MOTOR VEHICL                 | $$$  |
+| 59243 | NJ    | C982  | SPEEDING                                           | $$$  |
+| 59270 | NE    |       | DRV U/INFL-.15 1ST                                 | $$$  |
+| 59273 | NE    |       | LV SCN ACC-DAMAGE                                  | $$$  |
+| 59276 | NE    |       | RECKLESS DRV-1ST                                   | $$$  |
+| 59279 | NE    |       | SPD OVR 35 MPH C/S                                 | $$$  |
+| 59282 | NE    |       | SPD OVR 35 MPH NIS                                 | $$$  |
+| 59285 | NE    |       | SPEEDING                                           | $$$  |
+| 59288 | NE    |       | SPEEDING 1-10 MPH INTERSTATE                       | $$$  |
+| 59291 | NE    |       | VIOLATE HAND HELD WIRELESS COMMUNICATE DEVICE 1ST  | $$$  |
+| 59315 | TX    |       | 16-20 > SPEED LIMIT (DETAIL OPTIONAL)              | $$$  |
+| 59318 | TX    |       | 21-25 > SPEED LIMIT (DETAIL OPTIONAL)              | $$$  |
+| 59321 | TX    |       | 21-30 > SPEED LIMIT (DETAIL OPTIONAL)              | $$$  |
+| 59324 | TX    |       | 31-40 > SPEED LIMIT (DETAIL OPTIONAL)              | $$$  |
+| 59327 | TX    |       | DISREGARD WARNING SIGNS OR BARRICADES              | $$$  |
+| 59330 | TX    |       | DRIVER!S VIEW OBSTRUCTED                           | $$$  |
+| 59333 | TX    |       | DRIVING UNDER THE INFLUENCE OF ALCOHOL OR DRUGS    | $$$  |
+| 59336 | TX    |       | DRIVING WHILE INTOXICATED - UNDER 21               | $$$  |
+| 59339 | TX    |       | DRIVING WRONG WAY ON ONE WAY STREET OR ROAD        | $$$  |
+| 59342 | TX    |       | DROVE ON WRONG SIDE -- DIVIDED HIGHWAY             | $$$  |
+| 59345 | TX    |       | DROVE ONTO CONTROLLED ACCESS HWY WHERE PROHIBITED  | $$$  |
+| 59348 | TX    |       | EQUIPMENT USED IMPROPERLY OR OBSTRUCTED            | $$$  |
+| 59351 | TX    |       | EXPIRED OR NO NON-COMMERCIAL DRIVER LICENSE OR PER | $$$  |
+| 59354 | TX    |       | FAIL TO STOP - DESIGNATED POINT-STOP SIGN          | $$$  |
+| 59357 | TX    |       | FAIL TO STOP FROM ALLEY DRIVEWAY OR BUILDING       | $$$  |
+| 59360 | TX    |       | FAIL TO STOP PROPER PLACE - NOT INTERSECT          | $$$  |
+| 59363 | TX    |       | FAIL TO STOP PROPER PLACE - TRAFFIC LIGHT          | $$$  |
+| 59366 | TX    |       | FAILED TO DIM HEADLIGHTS -- MEETING                | $$$  |
+| 59369 | TX    |       | FAILED TO YIELD RIGHT OF WAY LEAVING PRIVATE DRIVE | $$$  |
+| 59372 | TX    |       | FAILED TO YIELD RIGHT OF WAY TO EMERGENCY VEHICLE  | $$$  |
+| 59375 | TX    |       | FAILED TO YIELD ROW LEAVING PRIVATE DR., ALLEY, ET | $$$  |
+| 59378 | TX    |       | FAILED TO YIELD ROW TO EMERGENCY VEHICLE           | $$$  |
+| 59381 | TX    |       | FAILED TO YIELD ROW TO PEDESTRIAN AT SIGNAL INTERS | $$$  |
+| 59384 | TX    |       | FAILURE TO ANSWER A CITATION, PAY FINES, PENALTIES | $$$  |
+| 59387 | TX    |       | FAILURE TO APPEAR FOR TRIAL OR COURT APPEARANCE    | $$$  |
+| 59390 | TX    |       | FAILURE TO OBEY TRAFFIC SIGN                       | $$$  |
+| 59393 | TX    |       | FAILURE TO STOP - BASIC RULE AT UNSIGNED INTERSECT | $$$  |
+| 59396 | TX    |       | FAILURE TO YIELD RIGHT OF WAY (FTY ROW)            | $$$  |
+| 59399 | TX    |       | FTY ROW AT TRAFFIC SIGN                            | $$$  |
+| 59402 | TX    |       | FTY ROW AT TRAFFIC SIGNAL                          | $$$  |
+| 59405 | TX    |       | FTY ROW TO PEDESTRIAN (INCLUDES HANDICAPPED OR BLI | $$$  |
+| 59408 | TX    |       | IMPROPER LANE OR LOCATION                          | $$$  |
+| 59411 | TX    |       | IMPROPER LANE OR LOCATION - ENTRANCE/EXIT RAMP OR  | $$$  |
+| 59414 | TX    |       | IMPROPER LANE OR LOCATION - IN HOV OR RESTRICTED L | $$$  |
+| 59417 | TX    |       | IMPROPER LANE OR LOCATION - TRAVELING IN TURN (OR  | $$$  |
+| 59420 | TX    |       | IMPROPER OR ERRATIC (UNSAFE) LANE CHANGES          | $$$  |
+| 59423 | TX    |       | IMPROPER POSITION FOR TURNING                      | $$$  |
+| 59426 | TX    |       | NO MOTORCYCLE LICENSE                              | $$$  |
+| 59429 | TX    |       | OPEN CONTAINER IN A MOTOR VEHICLE - DRIVER         | $$$  |
+| 59432 | TX    |       | PASSING AUTHORIZED EMERGENCY VEHICLE               | $$$  |
+| 59435 | TX    |       | SPEEDING 15 MILES OR MORE OVER POSTED LIMIT        | $$$  |
+| 59438 | TX    |       | SPEEDING ON FREEWAY (! WASTING FUEL !)             | $$$  |
+| 59441 | TX    |       | STOPPING, STANDING, OR PARKING: OBSTRUCTING OR IMP | $$$  |
+| 59444 | TX    |       | UNRESTRAINED CHILD SAFETY SEAT VIOLATION           | $$$  |
+| 59447 | TX    |       | USE OF RADAR OR LASER DETECTOR PROHIBITED BY LAW   | $$$  |
+| 59450 | TX    |       | USE WIRELESS DEVICE WHILE DRIVING - MINOR          | $$$  |
+| 59453 | TX    |       | VIOLATE DRIVER LICENSE RESTRICTION                 | $$$  |
+| 59504 | WV    |       | DUI LESS THAN .15                                  | $$$  |
+| 59507 | WV    |       | EXPIRED/NO OPERATORS OR CLP                        | $$$  |
+| 59510 | WV    |       | FAILED TO YIELD                                    | $$$  |
+| 59513 | WV    |       | HIT &AMP; RUN/LEAVING ACCIDENT                     | $$$  |
+| 59516 | WV    |       | IMPROPER STOP/START                                | $$$  |
+| 59519 | WV    |       | RECKLESS DRIVING                                   | $$$  |
+| 59522 | WV    |       | SPEEDING 1-10 OVER SPEED LIMIT                     | $$$  |
+| 59525 | WV    |       | SPEEDING 15-19 OVER SPEED LIMIT                    | $$$  |
+| 59528 | WV    |       | SPEEDING 20 OR MORE OVER LIMIT                     | $$$  |
+| 59531 | WV    |       | SPEEDING/NO SPEED DETL-CONV ONLY                   | $$$  |
+| 59534 | WV    |       | TEXTING WHLE DRIVING                               | $$$  |
+| 59549 | RI    |       | DRIVE WITHOUT/EXPIRED L                            | $$$  |
+| 59552 | RI    |       | DRV ENDANGER-DEATH RESULT                          | $$$  |
+| 59555 | RI    |       | DUI/FIRST OFFENSE/.15                              | $$$  |
+| 59558 | RI    |       | DUI/FIRST OFFENSE/BAL U                            | $$$  |
+| 59561 | RI    |       | DWI - BODILY INJURY                                | $$$  |
+| 59564 | RI    |       | ENTRNG INTERS-BLKNG INTERS                         | $$$  |
+| 59567 | RI    |       | EVADING TOLL (MT.HOPE)                             | $$$  |
+| 59570 | RI    |       | FAIL STOP ACC-INJURY                               | $$$  |
+| 59573 | RI    |       | INTR LGTS-OPER.POLICE STOP                         | $$$  |
+| 59576 | RI    |       | OPER BY OTHER THAN LESSEE                          | $$$  |
+| 59579 | RI    |       | PARKING/STOPING PROHIBITED                         | $$$  |
+| 59582 | RI    |       | POSSESSIN STOLEN VEH/PARTS                         | $$$  |
+| 59585 | RI    |       | RECKLESS DRIVING                                   | $$$  |
+| 59588 | RI    |       | TEMP REG-INVOIC VOUCHR                             | $$$  |
+| 59591 | RI    |       | TEXTING WHILE OPER 1ST                             | $$$  |
+| 59606 | TN    | 019   | MISCELLANEOUS TRAFFIC VIOLATION                    | $$$  |
